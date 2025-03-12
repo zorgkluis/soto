@@ -107,6 +107,7 @@ extension S3 {
         case crc32c = "CRC32C"
         case sha1 = "SHA1"
         case sha256 = "SHA256"
+        case crc64NVME = "CRC64NVME"
         public var description: String { return self.rawValue }
     }
 
